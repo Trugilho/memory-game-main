@@ -82,7 +82,7 @@ header {
 
 .disabled-card {
   filter: saturate(0);
-  opacity: 0.5;
+  opacity: 0.9;
 }
 
 /* Smartphones (600px para baixo) */
