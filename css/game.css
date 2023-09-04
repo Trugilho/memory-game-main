@@ -84,3 +84,15 @@ header {
   filter: saturate(0);
   opacity: 0.5;
 }
+
+/* Smartphones (600px para baixo) */
+@media (max-width: 600px) {
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+}
